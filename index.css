@@ -55,6 +55,7 @@ body {
     font-size: 17px;
     margin-left: 5px;
     width: 97%;
+    border: 1px solid #dddfe2;
 }
 
 #pass {
@@ -68,6 +69,7 @@ body {
     font-size: 17px;
     margin-left: 5px;
     width: 97%;
+    border: 1px solid #dddfe2;
 }
 
 .btn1 {
@@ -113,7 +115,7 @@ body {
 }
 
 .h5 {
-    font-size: 14px;
+    font-size: 10px;
     position: absolute;
     margin-top: 455px;
     margin-left: 1238px;
