@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Main {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 720px;
+    display: block;
+}
+
+#facebook_svg {
+    width: 301.6px;
+    height: 106px;
+}
+
+#leftside {
+    position: absolute;
+    margin-left: 435px;
+    margin-top: 180px;
+}
+
+.h2-leftside {
+    padding-top: 0px;
+}
+
+#login-form {
+    position: absolute;
+    height: 345px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    margin-left: 63%;
+    margin-top: 100px;
+}
+
+#mail {
+    line-height: 16px;
+    padding: 5px 6px;
+}
+
+#mail .email {
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 17px;
+    margin-left: 5px;
+    width: 97%;
+}
+
+#pass {
+    line-height: 16px;
+    padding: 5px 6px;
+}
+
+#pass .pass {
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 17px;
+    margin-left: 5px;
+    width: 97%;
+}
+
+.btn1 {
+    width: 325px;
+    height: 51px;
+    margin-left: 33px;
+}
+
+.p-btn {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#login {
+    padding: 2px 3px;
+}
+
+.pass_forgotten {
+    color: blue;
+    font-size: 13px;
+    text-align: center;
+}
+
+.btn2 {
+    width: 260px;
+    height: 43px;
+    margin-left: 68px;
+}
+
+.p-btn2 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#signup {
+    padding: 2px 3px;
+}

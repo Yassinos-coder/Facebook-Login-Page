@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Facebook-Connexion ou Inscription</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="Main">
+        <div id="Main-t1">
+            <div id="leftside">
+                <img id="facebook_svg" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+                <h2 class="h2-leftside">Avec Facebook, partagez et restez<br> en contact avec votre entourage.</h2>
+            </div>
+        </div>
+        <div id="login-form">
+            <div id="mail"><input class="email" type="email" placeholder="Enter your E-mail"></div>
+            <div id="pass"><input class="pass" type="password" placeholder="Enter your password"></div>
+            <div id="login"><button onclick="signin()" class="btn1 btn btn-primary"><p class="p-btn">Se Connecter</p></button></div>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
+                <h3 class="pass_forgotten">Mot de passe oublié ?</h3>
+            </a>
+            <hr size="8" width="90%" color="grey">
+            <div id="signup"><button class="btn2 btn btn-success"><p class="p-btn2">Créer nouveau Compte</p></button></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
